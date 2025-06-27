@@ -1,0 +1,17 @@
+
+{
+  "manifest_version": 3,
+  "name": "Wetter Extension",
+  "version": "1.0",
+  "description": "Zeigt das aktuelle Wetter und erlaubt Favoritenverwaltung.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "weather-app-48.png"
+      
+    }
+  },
+  "permissions": [
+    "storage"
+  ]
+}
